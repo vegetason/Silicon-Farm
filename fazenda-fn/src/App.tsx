@@ -1,11 +1,14 @@
-import { Header } from './components/header'
+import { Header } from "./components/header"
+import { Home } from "./components/home"
+import { Missions } from "./components/mission"
+import { Services } from "./components/service"
+
 function App() {
   return <>
-      <h1 className="text-3xl font-bold underline text-white">
-      Hello world!
-    </h1>
-  <Header/>
-  <div className='bg-black'></div>
+  <Header></Header>
+  <Home></Home>
+  <Services></Services>
+  <Missions></Missions>
   </>
 }
 
